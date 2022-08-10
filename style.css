@@ -1,0 +1,51 @@
+:root {
+    --cinzaescuro: #282a36;
+    --cinza: #44475a;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+
+body {
+    background-color: var(--cinza);
+}
+
+.container {
+    width: 450px;
+    margin: auto;
+    border: 3px solid var(--cinzaescuro);
+    padding: 20px;
+    border-radius: 10px;
+} 
+
+.container h1 {
+    text-align: center;
+}
+
+.container-flex {
+    display: flex;
+    gap: 10px;
+}
+
+input,
+select,
+button, option {
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid var(--cinza);
+    margin-top: 10px;
+    width: 100%;
+    color: var(--cinzaescuro);
+}
+
+button {
+    background-color: var(--cinzaescuro);
+    color: #fff;
+}
+
+button:hover {
+    background-color: #ff8528;
+}
